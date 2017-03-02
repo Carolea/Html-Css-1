@@ -1,0 +1,36 @@
+.inlineB{
+  display: inline-block;
+}
+body{
+  background-image: url("../img/BG.jpg");
+  background-size: cover;
+}
+header{
+  position: relative;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+}
+nav{
+  list-style: none;
+  position: absolute;
+  right: 25px;
+}
+#logo{
+width: 200px;
+margin: auto;
+position: relative;
+}
+#logo img{
+  top: -25px;
+  position: absolute;
+  width: 100%
+}
+#logo div{
+  width: 0;
+  height: 0;
+  border-top: 150px solid #c2185b;
+  border-left: 150px solid transparent;
+}
+header{
+  position: relative;
+}
